@@ -1,2 +1,3 @@
 # Competitive_Coding_
-This is my first github repository. Questions are taken from various competitive coding websites.
+Questions are taken from various competitive coding websites.
+This is the place where I upload all my practice questions of competitive coding.
