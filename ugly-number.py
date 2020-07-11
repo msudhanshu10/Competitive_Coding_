@@ -16,9 +16,24 @@ def check(N):
             break
 
     if flag==1:
-        print(n,'is an UGLY number.')
+        return True
     else :
-        print(n,'is NOT an UGLY number.')
+        return False
 
 
-check(13)
+t=int(input())
+if t>=1 and t<=10**4:
+    N=list()
+    for i in range(t):
+        N.append(int(input()))
+
+
+    for i in range(t):
+        if N[i]>=1 and N[i]<=10**4:
+            j=1
+            count=1
+            while count<=N[i] :
+                if check(j):
+                    count+=1
+                j+=1
+            print(j-1)
