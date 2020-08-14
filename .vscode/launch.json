@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "Competitive_Coding__56f45cd1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Preorder",
+            "request": "launch",
+            "mainClass": "Preorder",
+            "projectName": "Competitive_Coding__56f45cd1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - minLCM",
+            "request": "launch",
+            "mainClass": "minLCM",
+            "projectName": "Competitive_Coding__56f45cd1"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - minCost",
             "request": "launch",
             "mainClass": "minCost",
